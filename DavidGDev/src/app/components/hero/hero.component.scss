@@ -1,0 +1,79 @@
+#mainHero {
+    height: 40vh;
+    margin-top: 6vh;
+    border: 2px solid black;
+    width: 100vw;
+    background-color: #F8D6B3;
+    display: flex;
+}
+
+#left {
+    width: 50%;
+    height: 40vh;
+    border: 2px solid red;
+    display: flex;
+}
+
+#imgDiv {
+    width: 50%;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#aboutDiv {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#me {
+    width: 90%;
+    height: 90%;
+    border: 2px solid black;
+    box-shadow: -10px 10px 0px 0px rgba(0,0,0,0.75);
+}
+
+#tittle {
+    width: 80%;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 18px;
+    box-shadow: -10px 10px 0px 0px rgba(0,0,0,0.75);
+}
+
+.button-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Dos columnas */
+    grid-gap: 20px; /* Ajusta el espacio entre los elementos */
+    margin-top: 10px; /* Ajusta el margen superior según sea necesario */
+}
+
+.link {
+    display: flex;
+    align-items: center; /* Alinea los elementos horizontalmente */
+    border: 2px solid black;
+    box-shadow: -5px 5px 0px 0px rgba(0,0,0,0.75);
+}
+
+button {
+    display: flex;
+    align-items: center; /* Alinea los elementos horizontalmente */
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+#icon {
+    width: 30px;
+    height: auto;
+    margin-right: 5px; /* Espaciado entre el icono y el texto */
+}
+
+p {
+    margin: 0;
+    font-weight: bold;
+}

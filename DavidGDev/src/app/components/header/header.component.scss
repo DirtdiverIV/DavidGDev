@@ -1,0 +1,40 @@
+#nav {
+    background-color: #F8D6B3;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    border: 2px solid black;
+    height: 6vh;
+}
+
+#buttons {
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid red; 
+    width: 50%;
+    
+}
+
+#logo {
+    width: 50%;
+    border: 2px solid red; 
+    display: flex;
+    align-items: center;
+}
+
+#btn {
+    border: 2px solid black;
+    padding: 0.50em;
+    font-weight: bold;
+    box-shadow: -5px 5px 0px 0px rgba(0,0,0,0.75);
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0; /* Asegúrate de que no haya márgenes internos en el h1 */
+}
