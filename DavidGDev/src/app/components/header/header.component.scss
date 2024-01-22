@@ -1,5 +1,5 @@
 #nav {
-    background-color: #F8D6B3;
+    background-color: #A7DBD8;
     margin: 0;
     display: flex;
     justify-content: space-between;
@@ -29,9 +29,10 @@
 
 #btn {
     border: 2px solid black;
+    border-radius: 1em;
     padding: 0.50em;
     font-weight: bold;
-    box-shadow: -5px 5px 0px 0px rgba(0,0,0,0.75);
+    box-shadow: 4px 6px 0px 0px rgba(0,0,0,1);
 }
 
 h1 {

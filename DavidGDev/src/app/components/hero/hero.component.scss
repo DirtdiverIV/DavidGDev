@@ -1,29 +1,37 @@
 #mainHero {
     height: 40vh;
     margin-top: 6vh;
-    border: 2px solid black;
+   
     width: 100vw;
-    background-color: #F8D6B3;
+    
     display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 2em;
 }
 
 #left {
-    width: 50%;
+    width: 60%;
     height: 40vh;
-    border: 2px solid red;
+    border: 2px solid black;
     display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: #F8D6B3;
+    border-radius: 2em;
+    box-shadow: 4px 6px 0px 0px rgba(0, 0, 0, 1);
 }
 
 #imgDiv {
-    width: 50%;
-    border: 2px solid red;
+    width: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 4em;
 }
 
 #aboutDiv {
-    width: 50%;
+    width: 30%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -31,21 +39,29 @@
 }
 
 #me {
-    width: 90%;
-    height: 90%;
+    max-width: 100%; /* Cambiado de 30em a 100% */
+    max-height: auto;
+    width: 100%;
+    height: auto;
     border: 2px solid black;
-    box-shadow: -10px 10px 0px 0px rgba(0,0,0,0.75);
+    box-shadow: 4px 6px 0px 0px rgba(0, 0, 0, 1);
+    margin: 0; /* Asegúrate de que no haya márgenes */
+    padding: 0; /* Asegúrate de que no haya relleno */
 }
 
 #tittle {
-    width: 80%;
+    width: 100%; /* Cambiado de 80% a 100% */
     text-align: center;
     border: 2px solid black;
-    border-radius: 18px;
-    box-shadow: -10px 10px 0px 0px rgba(0,0,0,0.75);
+    border-radius: 1em;
+    box-shadow: 4px 6px 0px 0px rgba(0,0,0,1);
+    background-color: white;
+    color: black;
+    font-size: 1.5em;
 }
 
 .button-container {
+    width: 100%; /* Nuevo estilo para el contenedor de botones */
     display: grid;
     grid-template-columns: 1fr 1fr; /* Dos columnas */
     grid-gap: 20px; /* Ajusta el espacio entre los elementos */
@@ -53,10 +69,12 @@
 }
 
 .link {
+    width: 100%; /* Nuevo estilo para los enlaces */
     display: flex;
     align-items: center; /* Alinea los elementos horizontalmente */
     border: 2px solid black;
-    box-shadow: -5px 5px 0px 0px rgba(0,0,0,0.75);
+    box-shadow: 4px 6px 0px 0px rgba(0,0,0,1);
+    border-radius: 0.5em;
 }
 
 button {
@@ -65,6 +83,7 @@ button {
     background: none;
     border: none;
     cursor: pointer;
+    color: white;
 }
 
 #icon {
@@ -76,4 +95,20 @@ button {
 p {
     margin: 0;
     font-weight: bold;
+}
+
+#linkedin {
+    background-color: #87CEEB ;
+}
+
+#github {
+    background-color: #C4A1FF ;
+}
+
+#email {
+    background-color:#BAFCA2 ;
+}
+
+#phone {
+    background-color:#F4D738 ;
 }

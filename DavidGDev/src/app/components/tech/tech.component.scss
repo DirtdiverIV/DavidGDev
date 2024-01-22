@@ -1,0 +1,78 @@
+#mainHero {
+    height: 40vh;
+    width: 100vw;
+    
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 2em;
+}
+
+#left {
+    width: 60%;
+    height: fit-content;
+    border: 2px solid black;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: #F8D6B3;
+    border-radius: 2em;
+    box-shadow: 4px 6px 0px 0px rgba(0, 0, 0, 1);
+}
+
+
+#aboutDiv {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: space-between;
+    padding: 2em;
+    
+}
+
+.title {
+    border: 2px solid black;
+    border-radius: 2em;
+    padding: 1em;
+    box-shadow: 4px 6px 0px 0px rgba(0, 0, 0, 1);
+    
+    
+    
+}
+
+ul {
+    list-style: square;
+}
+
+.list {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+#tools {
+    background-color: #E3A018;
+}
+
+#lang {
+    background-color: #F4D738;
+}
+
+#colab {
+    background-color: #BAFCA2;
+}
+
+#frameworks {
+    background-color: #87CEEB;
+}
+
+#others {
+    background-color: #C4A1FF;
+}
+
+li {
+    font-weight: bold;
+    font-size: 1.5em;
+}
